@@ -1,4 +1,4 @@
-defmodule FoodTrucksWeb.ErrorJSONTest do
+defmodule FoodTrucksWeb.Controllers.ErrorJSONTest do
   use FoodTrucksWeb.ConnCase, async: true
 
   test "renders 404" do

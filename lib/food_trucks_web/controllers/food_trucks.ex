@@ -7,8 +7,6 @@ defmodule FoodTrucksWeb.Controllers.FoodTrucks do
 
   @spec fetch_trucks(Plug.Conn.t(), map()) :: Plug.Conn.t()
   def fetch_trucks(conn, _params) do
-    IO.inspect("Here all trucks")
-
     conn
     |> put_status(:ok)
     |> json(%{"All Names": TruckData.all_names()})

@@ -6,8 +6,6 @@ defmodule FoodTrucksWeb.Controllers.Ping do
 
   @spec ping(Plug.Conn.t(), map()) :: Plug.Conn.t()
   def ping(conn, _params) do
-    IO.inspect("Here")
-
     conn
     |> put_status(:ok)
     |> json(%{ping: "pong"})
