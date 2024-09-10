@@ -11,5 +11,6 @@ Now you can visit [`localhost:4000/api/ping`](http://localhost:4000/api/ping) fr
 
 Here are couple more APIs supported by this app
 
-Get all food truck namea `http://localhost:4000/api/food_trucks` or `curl -k 'http://localhost:4000/api/food_trucks' -H 'accept: application/json'`
-Get details of a truck name with location_id `http://localhost:4000/api/food_trucks/1569152` or `curl -k 'http://localhost:4000/api/food_trucks/1569152' -H 'accept: application/json'`
+Get all food truck names [`localhost:4000/api/food_trucks`](http://localhost:4000/api/food_trucks) or `curl -k 'http://localhost:4000/api/food_trucks' -H 'accept: application/json'`
+
+Get details of a truck name with location_id [`localhost:4000/api/food_trucks/1569152`](http://localhost:4000/api/food_trucks/1569152) or `curl -k 'http://localhost:4000/api/food_trucks/1569152' -H 'accept: application/json'`
