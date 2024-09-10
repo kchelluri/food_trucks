@@ -5,6 +5,7 @@ defmodule FoodTrucksWeb.Controllers.FoodTrucks do
   use FoodTrucksWeb, :controller
   alias FoodTrucks.InitData.TruckData
 
+  @spec fetch_trucks(Plug.Conn.t(), map()) :: Plug.Conn.t()
   def fetch_trucks(conn, _params) do
     IO.inspect("Here all trucks")
 

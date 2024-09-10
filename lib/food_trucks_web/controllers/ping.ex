@@ -4,6 +4,7 @@ defmodule FoodTrucksWeb.Controllers.Ping do
   """
   use FoodTrucksWeb, :controller
 
+  @spec ping(Plug.Conn.t(), map()) :: Plug.Conn.t()
   def ping(conn, _params) do
     IO.inspect("Here")
 
