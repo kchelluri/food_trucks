@@ -5,14 +5,11 @@ To start your Phoenix server:
   * Run `mix setup` to install and setup dependencies
   * Start Phoenix endpoint with `mix phx.server` or inside IEx with `iex -S mix phx.server`
 
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
+This is a phoenix-elixir API project with no web layout
 
-Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
+Now you can visit [`localhost:4000/api/ping`](http://localhost:4000/api/ping) from browser or `curl-k 'http://localhost:4000/api/ping' -H 'accept: application/json'` from terminal to get 200 response.
 
-## Learn more
+Here are couple more APIs supported by this app
 
-  * Official website: https://www.phoenixframework.org/
-  * Guides: https://hexdocs.pm/phoenix/overview.html
-  * Docs: https://hexdocs.pm/phoenix
-  * Forum: https://elixirforum.com/c/phoenix-forum
-  * Source: https://github.com/phoenixframework/phoenix
+Get all food truck namea `http://localhost:4000/api/food_trucks` or `curl -k 'http://localhost:4000/api/food_trucks' -H 'accept: application/json'`
+Get details of a truck name with location_id `http://localhost:4000/api/food_trucks/1569152` or `curl -k 'http://localhost:4000/api/food_trucks/1569152' -H 'accept: application/json'`
